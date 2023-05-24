@@ -11,7 +11,7 @@ app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 origins = [
-    "https://vite-test-fm8k.onrender.com/",
+    "https://.*\.onrender\.com",
 ]
 
 app.add_middleware(
